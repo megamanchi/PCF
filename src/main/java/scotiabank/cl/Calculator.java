@@ -1,6 +1,6 @@
 package scotiabank.cl;
 
-public class Calculator {	
+public class Calculator implements CalculatorInterface {	
 	private String[][]  matriz = {
 			 {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"},
 			 {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"}, 
